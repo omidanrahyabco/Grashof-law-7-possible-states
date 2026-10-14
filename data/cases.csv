@@ -1,0 +1,8 @@
+case,name,family,link1_ground,link2,link3_coupler,link4,s,l,p,q,l_plus_s,p_plus_q,relation,shortest_link,link2_motion,link3_motion,link4_motion,driven_by,input_mode,lecture_ref
+1,Triple Rocker,Non-Grashof,4.5,2.0,2.6,2.4,2.0,4.5,2.4,2.6,6.5,5.0,l+s > p+q,any link (no link can turn fully),rocker 184.8 deg,swing 141.8 deg,rocker 154.0 deg,link2,rock,Slide 3: l + s > p + q
+2,Double Crank,Grashof,1.6,3.2,3.8,4.0,1.6,4.0,3.2,3.8,5.6,7.0,l+s < p+q,link 1 (the ground),crank,full turn,crank,link2,rotate,Slide 3: s = link 1
+3,Double Rocker,Grashof,4.5,3.0,1.4,3.5,1.4,4.5,3.0,3.5,5.9,6.5,l+s < p+q,"link 3 (coupler, opposite the ground)",rocker 55.7 deg,full turn,rocker 47.2 deg,coupler,rotate,Slide 3: s = link 3
+4,Crank–Rocker,Grashof,4.0,1.4,4.2,3.2,1.4,4.2,3.2,4.0,5.6,7.2,l+s < p+q,link 2 (adjacent to the ground),crank,swing 43.0 deg,rocker 57.5 deg,link2,rotate,Slide 3: s = link 2 or 4
+5,Parallelogram,Change point,4.0,2.0,4.0,2.0,2.0,4.0,2.0,4.0,6.0,6.0,l+s = p+q,"links 2 and 4 (equal, opposite each other)",crank,translation,crank,link2,rotate,Slide 4: parallelogram
+6,Deltoid (Kite),Change point,4.0,1.8,1.8,4.0,1.8,4.0,1.8,4.0,5.8,5.8,l+s = p+q,"links 2 and 3 (equal, adjacent)",crank,full turn,rocker 107.0 deg,link2,rotate,Slide 4: deltoid
+7,General Change Point,Change point,3.0,1.5,3.5,2.0,1.5,3.5,2.0,3.0,5.0,5.0,l+s = p+q,link 2 (adjacent to the ground),crank,swing 129.2 deg,rocker 277.2 deg,link2,rotate,"Slide 4: 3.5, 1.5, 2, 3"
